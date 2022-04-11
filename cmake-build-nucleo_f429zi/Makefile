@@ -168,32 +168,32 @@ Production/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Production.dir/build.make CMakeFiles/Production.dir/build
 .PHONY : Production/fast
 
-Inc/manchester_encoding.obj: Inc/manchester_encoding.cpp.obj
+Src/ManchesterEncode.obj: Src/ManchesterEncode.cpp.obj
 
-.PHONY : Inc/manchester_encoding.obj
+.PHONY : Src/ManchesterEncode.obj
 
 # target to build an object file
-Inc/manchester_encoding.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/Inc/manchester_encoding.cpp.obj
-.PHONY : Inc/manchester_encoding.cpp.obj
+Src/ManchesterEncode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/Src/ManchesterEncode.cpp.obj
+.PHONY : Src/ManchesterEncode.cpp.obj
 
-Inc/manchester_encoding.i: Inc/manchester_encoding.cpp.i
+Src/ManchesterEncode.i: Src/ManchesterEncode.cpp.i
 
-.PHONY : Inc/manchester_encoding.i
+.PHONY : Src/ManchesterEncode.i
 
 # target to preprocess a source file
-Inc/manchester_encoding.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/Inc/manchester_encoding.cpp.i
-.PHONY : Inc/manchester_encoding.cpp.i
+Src/ManchesterEncode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/Src/ManchesterEncode.cpp.i
+.PHONY : Src/ManchesterEncode.cpp.i
 
-Inc/manchester_encoding.s: Inc/manchester_encoding.cpp.s
+Src/ManchesterEncode.s: Src/ManchesterEncode.cpp.s
 
-.PHONY : Inc/manchester_encoding.s
+.PHONY : Src/ManchesterEncode.s
 
 # target to generate assembly for a file
-Inc/manchester_encoding.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/Inc/manchester_encoding.cpp.s
-.PHONY : Inc/manchester_encoding.cpp.s
+Src/ManchesterEncode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Z_DUMMY_TARGET.dir/build.make CMakeFiles/Z_DUMMY_TARGET.dir/Src/ManchesterEncode.cpp.s
+.PHONY : Src/ManchesterEncode.cpp.s
 
 Src/gpio.obj: Src/gpio.c.obj
 
@@ -422,9 +422,9 @@ help:
 	@echo "... Debug"
 	@echo "... Production"
 	@echo "... Z_DUMMY_TARGET"
-	@echo "... Inc/manchester_encoding.obj"
-	@echo "... Inc/manchester_encoding.i"
-	@echo "... Inc/manchester_encoding.s"
+	@echo "... Src/ManchesterEncode.obj"
+	@echo "... Src/ManchesterEncode.i"
+	@echo "... Src/ManchesterEncode.s"
 	@echo "... Src/gpio.obj"
 	@echo "... Src/gpio.i"
 	@echo "... Src/gpio.s"

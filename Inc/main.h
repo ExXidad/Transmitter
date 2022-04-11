@@ -59,6 +59,8 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define MCLK_Pin GPIO_PIN_12
 #define MCLK_GPIO_Port GPIOF
+#define SIG_Pin GPIO_PIN_13
+#define SIG_GPIO_Port GPIOF
 #define LDR_Pin GPIO_PIN_14
 #define LDR_GPIO_Port GPIOB
 #define LSR_Pin GPIO_PIN_15

@@ -270,10 +270,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/xidad/Documents/projects/satellite/Transmitter/Inc/manchester_encoding.cpp">
+		<Unit filename="/Users/xidad/Documents/projects/satellite/Transmitter/Inc/ManchesterEncode.h">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
-		<Unit filename="/Users/xidad/Documents/projects/satellite/Transmitter/Inc/manchester_encoding.h">
+		<Unit filename="/Users/xidad/Documents/projects/satellite/Transmitter/Src/ManchesterEncode.cpp">
 			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
 		<Unit filename="/Users/xidad/Documents/projects/satellite/Transmitter/Src/gpio.c">

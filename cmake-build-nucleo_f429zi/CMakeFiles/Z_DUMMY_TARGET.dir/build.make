@@ -76,9 +76,22 @@ include CMakeFiles/Z_DUMMY_TARGET.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 
+CMakeFiles/Z_DUMMY_TARGET.dir/Src/ManchesterEncode.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
+CMakeFiles/Z_DUMMY_TARGET.dir/Src/ManchesterEncode.cpp.obj: ../Src/ManchesterEncode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Src/ManchesterEncode.cpp.obj"
+	/Users/xidad/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Src/ManchesterEncode.cpp.obj -c /Users/xidad/Documents/projects/satellite/Transmitter/Src/ManchesterEncode.cpp
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Src/ManchesterEncode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Src/ManchesterEncode.cpp.i"
+	/Users/xidad/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xidad/Documents/projects/satellite/Transmitter/Src/ManchesterEncode.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Src/ManchesterEncode.cpp.i
+
+CMakeFiles/Z_DUMMY_TARGET.dir/Src/ManchesterEncode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Src/ManchesterEncode.cpp.s"
+	/Users/xidad/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xidad/Documents/projects/satellite/Transmitter/Src/ManchesterEncode.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Src/ManchesterEncode.cpp.s
+
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/gpio.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/gpio.c.obj: ../Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Src/gpio.c.obj"
 	/Users/xidad/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Src/gpio.c.obj -c /Users/xidad/Documents/projects/satellite/Transmitter/Src/gpio.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/gpio.c.i: cmake_force
@@ -91,7 +104,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/Src/gpio.c.s: cmake_force
 
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/main.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/main.cpp.obj: ../Src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Src/main.cpp.obj"
 	/Users/xidad/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Src/main.cpp.obj -c /Users/xidad/Documents/projects/satellite/Transmitter/Src/main.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/main.cpp.i: cmake_force
@@ -104,7 +117,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/Src/main.cpp.s: cmake_force
 
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/myMain.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/myMain.cpp.obj: ../Src/myMain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Src/myMain.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Src/myMain.cpp.obj"
 	/Users/xidad/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Src/myMain.cpp.obj -c /Users/xidad/Documents/projects/satellite/Transmitter/Src/myMain.cpp
 
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/myMain.cpp.i: cmake_force
@@ -117,7 +130,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/Src/myMain.cpp.s: cmake_force
 
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/retarget.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/retarget.c.obj: ../Src/retarget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Src/retarget.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Src/retarget.c.obj"
 	/Users/xidad/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Src/retarget.c.obj -c /Users/xidad/Documents/projects/satellite/Transmitter/Src/retarget.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/retarget.c.i: cmake_force
@@ -130,7 +143,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/Src/retarget.c.s: cmake_force
 
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_hal_msp.c.obj: ../Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_hal_msp.c.obj"
 	/Users/xidad/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_hal_msp.c.obj -c /Users/xidad/Documents/projects/satellite/Transmitter/Src/stm32f4xx_hal_msp.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -143,7 +156,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_it.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_it.c.obj: ../Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_it.c.obj"
 	/Users/xidad/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_it.c.obj -c /Users/xidad/Documents/projects/satellite/Transmitter/Src/stm32f4xx_it.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_it.c.i: cmake_force
@@ -156,7 +169,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_it.c.s: cmake_force
 
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/tim.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/tim.c.obj: ../Src/tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Src/tim.c.obj"
 	/Users/xidad/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Src/tim.c.obj -c /Users/xidad/Documents/projects/satellite/Transmitter/Src/tim.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/tim.c.i: cmake_force
@@ -169,7 +182,7 @@ CMakeFiles/Z_DUMMY_TARGET.dir/Src/tim.c.s: cmake_force
 
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/usart.c.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/usart.c.obj: ../Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Z_DUMMY_TARGET.dir/Src/usart.c.obj"
 	/Users/xidad/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Src/usart.c.obj -c /Users/xidad/Documents/projects/satellite/Transmitter/Src/usart.c
 
 CMakeFiles/Z_DUMMY_TARGET.dir/Src/usart.c.i: cmake_force
@@ -180,21 +193,9 @@ CMakeFiles/Z_DUMMY_TARGET.dir/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Src/usart.c.s"
 	/Users/xidad/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/xidad/Documents/projects/satellite/Transmitter/Src/usart.c -o CMakeFiles/Z_DUMMY_TARGET.dir/Src/usart.c.s
 
-CMakeFiles/Z_DUMMY_TARGET.dir/Inc/manchester_encoding.cpp.obj: CMakeFiles/Z_DUMMY_TARGET.dir/flags.make
-CMakeFiles/Z_DUMMY_TARGET.dir/Inc/manchester_encoding.cpp.obj: ../Inc/manchester_encoding.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Z_DUMMY_TARGET.dir/Inc/manchester_encoding.cpp.obj"
-	/Users/xidad/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Z_DUMMY_TARGET.dir/Inc/manchester_encoding.cpp.obj -c /Users/xidad/Documents/projects/satellite/Transmitter/Inc/manchester_encoding.cpp
-
-CMakeFiles/Z_DUMMY_TARGET.dir/Inc/manchester_encoding.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Z_DUMMY_TARGET.dir/Inc/manchester_encoding.cpp.i"
-	/Users/xidad/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/xidad/Documents/projects/satellite/Transmitter/Inc/manchester_encoding.cpp > CMakeFiles/Z_DUMMY_TARGET.dir/Inc/manchester_encoding.cpp.i
-
-CMakeFiles/Z_DUMMY_TARGET.dir/Inc/manchester_encoding.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Z_DUMMY_TARGET.dir/Inc/manchester_encoding.cpp.s"
-	/Users/xidad/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/xidad/Documents/projects/satellite/Transmitter/Inc/manchester_encoding.cpp -o CMakeFiles/Z_DUMMY_TARGET.dir/Inc/manchester_encoding.cpp.s
-
 # Object files for target Z_DUMMY_TARGET
 Z_DUMMY_TARGET_OBJECTS = \
+"CMakeFiles/Z_DUMMY_TARGET.dir/Src/ManchesterEncode.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/Src/gpio.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/Src/main.cpp.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/Src/myMain.cpp.obj" \
@@ -202,12 +203,12 @@ Z_DUMMY_TARGET_OBJECTS = \
 "CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_hal_msp.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_it.c.obj" \
 "CMakeFiles/Z_DUMMY_TARGET.dir/Src/tim.c.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/Src/usart.c.obj" \
-"CMakeFiles/Z_DUMMY_TARGET.dir/Inc/manchester_encoding.cpp.obj"
+"CMakeFiles/Z_DUMMY_TARGET.dir/Src/usart.c.obj"
 
 # External object files for target Z_DUMMY_TARGET
 Z_DUMMY_TARGET_EXTERNAL_OBJECTS =
 
+Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Src/ManchesterEncode.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Src/gpio.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Src/main.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Src/myMain.cpp.obj
@@ -216,7 +217,6 @@ Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_hal_msp.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Src/stm32f4xx_it.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Src/tim.c.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Src/usart.c.obj
-Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/Inc/manchester_encoding.cpp.obj
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/build.make
 Z_DUMMY_TARGET: CMakeFiles/Z_DUMMY_TARGET.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Z_DUMMY_TARGET"

@@ -3,6 +3,7 @@
 #include <cstring>
 #include <stdio.h>
 #include "retarget.h"
+#include "ManchesterEncode.h"
 
 [[noreturn]] int myMain();
 
