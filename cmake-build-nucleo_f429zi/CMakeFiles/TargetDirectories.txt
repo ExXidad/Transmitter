@@ -1,0 +1,5 @@
+/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles/rebuild_cache.dir
+/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles/edit_cache.dir
+/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles/Z_DUMMY_TARGET.dir
+/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles/Debug.dir
+/Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi/CMakeFiles/Production.dir

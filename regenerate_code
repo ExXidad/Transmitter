@@ -1,0 +1,26 @@
+#!/bin/zsh
+mkdir user_code
+
+mv Src/retarget.c user_code
+mv Inc/retarget.h user_code
+
+mv Src/myMain.cpp user_code
+mv Inc/myMain.h user_code
+
+#mv Src/decode_manchester.cpp user_code
+#mv Inc/decode_manchester.h user_code
+
+stm32pio generate
+
+mv user_code/retarget.c Src/retarget.c
+mv user_code/retarget.h Inc/retarget.h
+
+mv user_code/myMain.cpp Src/myMain.cpp
+mv user_code/myMain.h Inc/myMain.h
+
+#mv user_code/decode_manchester.cpp Src/decode_manchester.cpp
+#mv user_code/decode_manchester.h Inc/decode_manchester.h
+
+rm -r user_code
+mv Src/main.c Src/main.cpp
+./injector.py -i Src/main.cpp -o Src/main.cpp

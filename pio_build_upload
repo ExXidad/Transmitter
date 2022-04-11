@@ -1,0 +1,3 @@
+#!/bin/zsh
+pio run
+pio run -t upload

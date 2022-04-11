@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=nucleo_f429zi -G "CodeBlocks - Unix Makefiles" /Users/xidad/Documents/projects/satellite/Transmitter
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/xidad/Documents/projects/satellite/Transmitter/cmake-build-nucleo_f429zi

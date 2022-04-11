@@ -1,0 +1,7 @@
+To regenerate code run
+./regenerate_code
+
+Then paste 
+#include "myMain.h"
+to the main.c
+
