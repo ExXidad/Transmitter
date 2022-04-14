@@ -2,13 +2,19 @@
 
 ManchesterEncode manchesterEncode(SIG_GPIO_Port, SIG_Pin, &htim9);
 
+#define MESSAGE_LENGTH 8
+
 [[noreturn]] int myMain()
 {
     HAL_TIM_Base_Start_IT(&htim2);
     HAL_TIM_Base_Start_IT(&htim9);
     RetargetInit(&huart3);
     HAL_TIM_PWM_Start(&htim9, TIM_CHANNEL_1);
-    uint8_t data[4]{'4', 'l', 'e', 'n'};
+//    uint8_t data[4]{'4', 'l', 'e', 'n'};
+    uint8_t data[MESSAGE_LENGTH];
+    memcpy(data,
+           "Fuck you",
+           MESSAGE_LENGTH);
 
     while (1)
     {
@@ -17,7 +23,7 @@ ManchesterEncode manchesterEncode(SIG_GPIO_Port, SIG_Pin, &htim9);
         // HAL_GPIO_TogglePin(LDB_GPIO_Port, LDB_Pin);
         // HAL_Delay(150);
         HAL_GPIO_TogglePin(LDR_GPIO_Port, LDR_Pin);
-        manchesterEncode.startEncoding(data, 4);
+        manchesterEncode.startEncoding(data, MESSAGE_LENGTH);
         HAL_GPIO_TogglePin(LDR_GPIO_Port, LDR_Pin);
         HAL_Delay(100);
     }
